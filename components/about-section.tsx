@@ -17,7 +17,7 @@ export function AboutSection() {
         </p>
         <p>
           Beyond the screen, I&apos;m an active student leader. My journey from leading{' '}
-          <span className="font-medium text-foreground">organizational media</span> to advocating for{' '}
+          <span className="font-medium text-foreground">Media Communication and Information </span> to advocating for{' '}
           <span className="font-medium text-foreground">student welfare</span> has trained me to manage people, streamline digital services, and build solutions that actually help my campus community.
         </p>
         <p>
