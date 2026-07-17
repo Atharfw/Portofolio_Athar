@@ -49,24 +49,18 @@
 
 :root {
   color-scheme: dark;
-  /* slate-900 */
   --background: oklch(0.208 0.042 265.755);
-  /* slate-200 */
   --foreground: oklch(0.928 0.006 264.531);
-  /* slate-800 */
   --card: oklch(0.279 0.041 260.031);
   --card-foreground: oklch(0.928 0.006 264.531);
   --popover: oklch(0.279 0.041 260.031);
   --popover-foreground: oklch(0.928 0.006 264.531);
-  /* teal-300 accent */
   --primary: oklch(0.855 0.138 181.071);
   --primary-foreground: oklch(0.208 0.042 265.755);
   --secondary: oklch(0.279 0.041 260.031);
   --secondary-foreground: oklch(0.928 0.006 264.531);
   --muted: oklch(0.279 0.041 260.031);
-  /* slate-400 */
   --muted-foreground: oklch(0.704 0.04 256.788);
-  /* teal-300/10 style accent bg handled via classes */
   --accent: oklch(0.855 0.138 181.071);
   --accent-foreground: oklch(0.208 0.042 265.755);
   --destructive: oklch(0.704 0.191 22.216);

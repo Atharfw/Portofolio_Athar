@@ -4,17 +4,30 @@ import { useLightbox } from '@/components/lightbox'
 
 type Project = {
   title: string
-  description: string
+  link?: string
+  description: React.ReactNode
   tags: string[]
   images: string[]
 }
 
 // Sw these placeholder URLs for real project screenshots later.ap
 const PROJECTS: Project[] = [
-  {
+ {
     title: 'Offensive Security Final Project (KDJ)',
-    description:
-      'Conducted a sanctioned vulnerability assessment and penetration test simulation on a controlled web application as a final examination. Identified and exploited critical vulnerabilities such as SQL injection and XSS, then delivered a comprehensive mitigation report.',
+    link: 'https://github.com/username-lu/repo-kdj', 
+    description: (
+      <>
+        Conducted a sanctioned vulnerability assessment and penetration test simulation on a controlled web application as a final examination. Identified and exploited critical vulnerabilities such as SQL injection and XSS, then delivered a{' '}
+        <a 
+          href="https://link-google-drive-laporan-lu.com" 
+          target="_blank" 
+          rel="noreferrer"
+          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
+        >
+          comprehensive mitigation report
+        </a>.
+      </>
+    ),
     tags: ['Kali Linux', 'Burp Suite', 'SQLi', 'XSS', 'Security Reporting'],
     images: [
       'https://picsum.photos/seed/kdj-security-1/800/450',
@@ -24,6 +37,7 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'UniTask',
+    link: 'https://github.com/yourusername/unitask',
     description:
       'A hyperlocal gig economy platform connecting students with nearby tasks. Focused on robust backend logic, a well-structured relational database, and Progressive Web App (PWA) integration for a native-like experience.',
     tags: ['Backend', 'Database Design', 'PWA', 'Python'],
@@ -35,6 +49,7 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'NongkiBib',
+    link: 'https://github.com/yourusername/nongkibib',
     description:
       'A gamified time management mobile app concept built around strict penalty logic — turning focus and accountability into a game that discourages procrastination.',
     tags: ['Mobile', 'Gamification', 'UX', 'Figma'],
@@ -46,6 +61,7 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'Kesma Web',
+    link: 'https://github.com/yourusername/kesma-web',
     description:
       'A student welfare web platform designed to streamline advocacy workflows, manage organizational data, and improve digital services for students.',
     tags: ['Web App', 'Tailwind', 'Backend', 'Data Management'],
@@ -57,6 +73,7 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'Spotify Data Processor',
+    link: 'https://github.com/yourusername/spotify-data-processor',
     description:
       'An academic final exam project focused on music data selection and processing, applying core algorithms and complex data structures to efficiently handle and query large datasets.',
     tags: ['C++', 'Data Structures', 'Algorithms'],
@@ -68,6 +85,7 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'Scholarship Selection System',
+    link: 'https://github.com/yourusername/scholarship-selection-system',
     description:
       'A decision support system leveraging the Fuzzy Sugeno logic algorithm to objectively evaluate applicants and determine scholarship recipients based on weighted criteria.',
     tags: ['Fuzzy Logic', 'Python', 'Decision Support', 'Algorithms'],
@@ -116,15 +134,28 @@ export function ProjectsSection() {
                   </span>
                 )}
               </button>
-              <div className="flex items-start justify-between gap-3">
-                <h3 className="font-semibold leading-snug text-foreground transition-colors group-hover:text-primary">
-                  {project.title}
-                </h3>
-                <ArrowUpRight
-                  className="h-5 w-5 shrink-0 text-muted-foreground transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary"
-                  aria-hidden="true"
-                />
-              </div>
+              {project.link ? (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group/link flex items-start justify-between gap-3 focus:outline-none"
+                >
+                  <h3 className="font-semibold leading-snug text-foreground transition-colors group-hover:text-primary group-hover/link:underline focus-visible:underline">
+                    {project.title}
+                  </h3>
+                  <ArrowUpRight
+                    className="h-5 w-5 shrink-0 text-muted-foreground transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-hover/link:text-primary"
+                    aria-hidden="true"
+                  />
+                </a>
+              ) : (
+                <div className="flex items-start justify-between gap-3">
+                  <h3 className="font-semibold leading-snug text-foreground transition-colors group-hover:text-primary">
+                    {project.title}
+                  </h3>
+                </div>
+              )}
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
                 {project.description}
               </p>
