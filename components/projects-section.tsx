@@ -85,17 +85,7 @@ const PROJECTS: Project[] = [
     title: 'Kesma Web',
     link: 'https://github.com/yourusername/kesma-web',
     description: (
-      <>
-        'A student welfare web platform designed to streamline advocacy workflows, manage organizational data, and improve digital services for students.',then delivered a{' '}
-      <a 
-          href="https://link-google-drive-laporan-lu.com" 
-          target="_blank" 
-          rel="noreferrer"
-          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
-        >
-          comprehensive mitigation report
-        </a>.
-      </>
+      'A student welfare web platform designed to streamline advocacy workflows, manage organizational data, and improve digital services for students.'
     ),
     tags: ['Web App', 'Tailwind', 'Backend', 'Data Management'],
     images: [
