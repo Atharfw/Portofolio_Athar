@@ -38,8 +38,19 @@ const PROJECTS: Project[] = [
   {
     title: 'UniTask',
     link: 'https://github.com/yourusername/unitask',
-    description:
-      'A hyperlocal gig economy platform connecting students with nearby tasks. Focused on robust backend logic, a well-structured relational database, and Progressive Web App (PWA) integration for a native-like experience.',
+    description: (
+      <>
+      'A hyperlocal gig economy platform connecting students with nearby tasks. Focused on robust backend logic, a well-structured relational database, and Progressive Web App (PWA) integration for a native-like experience.',then delivered a{' '}
+      <a 
+          href="https://link-google-drive-laporan-lu.com" 
+          target="_blank" 
+          rel="noreferrer"
+          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
+        >
+          comprehensive mitigation report
+        </a>.
+      </>
+    ),
     tags: ['Backend', 'Database Design', 'PWA', 'Python'],
     images: [
       'https://picsum.photos/seed/unitask/800/450',
@@ -50,8 +61,19 @@ const PROJECTS: Project[] = [
   {
     title: 'NongkiBib',
     link: 'https://github.com/yourusername/nongkibib',
-    description:
-      'A gamified time management mobile app concept built around strict penalty logic — turning focus and accountability into a game that discourages procrastination.',
+    description: (
+      <>
+        'A gamified time management mobile app concept built around strict penalty logic — turning focus and accountability into a game that discourages procrastination.',then delivered a{' '}
+      <a 
+          href="https://link-google-drive-laporan-lu.com" 
+          target="_blank" 
+          rel="noreferrer"
+          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
+        >
+          comprehensive mitigation report
+        </a>.
+      </>
+    ),
     tags: ['Mobile', 'Gamification', 'UX', 'Figma'],
     images: [
       'https://picsum.photos/seed/nongkibib/800/450',
@@ -62,8 +84,19 @@ const PROJECTS: Project[] = [
   {
     title: 'Kesma Web',
     link: 'https://github.com/yourusername/kesma-web',
-    description:
-      'A student welfare web platform designed to streamline advocacy workflows, manage organizational data, and improve digital services for students.',
+    description: (
+      <>
+        'A student welfare web platform designed to streamline advocacy workflows, manage organizational data, and improve digital services for students.',then delivered a{' '}
+      <a 
+          href="https://link-google-drive-laporan-lu.com" 
+          target="_blank" 
+          rel="noreferrer"
+          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
+        >
+          comprehensive mitigation report
+        </a>.
+      </>
+    ),
     tags: ['Web App', 'Tailwind', 'Backend', 'Data Management'],
     images: [
       'https://picsum.photos/seed/kesma-web/800/450',
@@ -74,8 +107,19 @@ const PROJECTS: Project[] = [
   {
     title: 'Spotify Data Processor',
     link: 'https://github.com/yourusername/spotify-data-processor',
-    description:
-      'An academic final exam project focused on music data selection and processing, applying core algorithms and complex data structures to efficiently handle and query large datasets.',
+    description: (
+      <>
+        'An academic final exam project focused on music data selection and processing, applying core algorithms and complex data structures to efficiently handle and query large datasets.',then delivered a{' '}
+      <a 
+          href="https://link-google-drive-laporan-lu.com" 
+          target="_blank" 
+          rel="noreferrer"
+          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
+        >
+          comprehensive mitigation report
+        </a>.
+      </>
+    ),
     tags: ['C++', 'Data Structures', 'Algorithms'],
     images: [
       'https://picsum.photos/seed/spotify-data/800/450',
@@ -86,8 +130,19 @@ const PROJECTS: Project[] = [
   {
     title: 'Scholarship Selection System',
     link: 'https://github.com/yourusername/scholarship-selection-system',
-    description:
-      'A decision support system leveraging the Fuzzy Sugeno logic algorithm to objectively evaluate applicants and determine scholarship recipients based on weighted criteria.',
+    description: (
+      <>
+        'A decision support system leveraging the Fuzzy Sugeno logic algorithm to objectively evaluate applicants and determine scholarship recipients based on weighted criteria.',then delivered a{' '}
+      <a 
+          href="https://link-google-drive-laporan-lu.com" 
+          target="_blank" 
+          rel="noreferrer"
+          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
+        >
+          comprehensive mitigation report
+        </a>.
+      </>
+    ),
     tags: ['Fuzzy Logic', 'Python', 'Decision Support', 'Algorithms'],
     images: [
       'https://picsum.photos/seed/scholarship-dss/800/450',
