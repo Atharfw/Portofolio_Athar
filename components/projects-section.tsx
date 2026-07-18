@@ -96,25 +96,30 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'Spotify Data Processor',
-    link: 'https://github.com/yourusername/spotify-data-processor',
+    link: 'https://github.com/Atharfw/project_uas/blob/main/spotifyFix.cpp',
     description: (
       <>
-        'An academic final exam project focused on music data selection and processing, applying core algorithms and complex data structures to efficiently handle and query large datasets.',then delivered a{' '}
+        An academic final exam project focused on music data selection and processing, applying core algorithms and complex data structures to efficiently handle and query large datasets.{' '}
       <a 
-          href="https://link-google-drive-laporan-lu.com" 
+          href="https://drive.google.com/drive/folders/1P8JcmeBWSslD-dWE4WQytXpck-fihBKe?usp=sharing" 
           target="_blank" 
           rel="noreferrer"
           className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
         >
-          comprehensive mitigation report
+          View the project report
         </a>.
       </>
     ),
     tags: ['C++', 'Data Structures', 'Algorithms'],
     images: [
-      'https://picsum.photos/seed/spotify-data/800/450',
-      'https://picsum.photos/seed/spotify-data-2/800/450',
-      'https://picsum.photos/seed/spotify-data-3/800/450',
+      '1.jpg',
+      '2.jpg',
+      '3.jpg',
+      '4.jpg',
+      '5.jpg',
+      '6.jpg',
+      '7.jpg',
+      '8.jpg',
     ],
   },
   {
