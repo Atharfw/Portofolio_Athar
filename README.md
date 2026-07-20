@@ -24,6 +24,9 @@ A glimpse of the projects featured in this portfolio:
 - **Offensive Security Final Project (KDJ):** A sanctioned penetration testing simulation focusing on critical vulnerabilities (SQLi, XSS) and comprehensive mitigation reporting.
 - **UniTask:** A hyperlocal gig economy web platform tailored for student environments.
 - **NongkiBib:** A gamified time-management mobile application concept enforcing strict scheduling penalties.
+- **Spotify Data Prossesor:** An academic final exam project focused on music data selection and processing, applying core algorithms and complex data structures to efficiently handle and query large datasets.
+- **:Scholarship Selection System ** A decision support system leveraging the Fuzzy Sugeno logic algorithm to objectively evaluate applicants and determine scholarship recipients based on weighted criteria.
+- **Kesma Web:** A student welfare web platform designed to streamline advocacy workflows, manage organizational data, and improve digital services for students.
 
 ### Getting Started
 
