@@ -63,7 +63,6 @@ export function Sidebar() {
       <div className="lg:pr-4">
         <div className="relative mb-6 h-48 w-48 overflow-hidden rounded-2xl border border-border shadow-lg">
           {PROFILE_IMAGES.map((src, index) => (
-            // eslint-disable-next-line @next/next/no-img-element
             <img
               key={src}
               src={src || '/placeholder.svg'}

@@ -10,20 +10,19 @@ type Project = {
   images: string[]
 }
 
-// Sw these placeholder URLs for real project screenshots later.ap
 const PROJECTS: Project[] = [
  {
     title: 'Offensive Security Final Project (KDJ)',
     description: (
       <>
-        Conducted a sanctioned vulnerability assessment and penetration test simulation on a controlled web application as a final examination. Identified and exploited critical vulnerabilities such as SQL injection and XSS, then delivered a{' '}
+        A comprehensive penetration testing simulation project designed to evaluate system resilience. It focuses on identifying, exploiting, and mitigating critical security vulnerabilities such as SQL Injection (SQLi) and Cross-Site Scripting (XSS), complete with professional-grade mitigation reporting.{' '}
         <a 
           href="https://drive.google.com/file/d/1VU9Xu0ege5InZJUIjgzEpiDFndcaJ-at/view?usp=sharing" 
           target="_blank" 
           rel="noreferrer"
           className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
         >
-          comprehensive mitigation report
+          View the project report
         </a>.
       </>
     ),
@@ -47,7 +46,7 @@ const PROJECTS: Project[] = [
     title: 'UniTask',
     description: (
       <>
-      A hyperlocal gig economy platform connecting students with nearby tasks. Focused on robust backend logic, a well-structured relational database, and Progressive Web App (PWA) integration for a native-like experience.{' '}
+       A UI/UX design concept and mockup for a hyperlocal gig economy platform tailored specifically for university ecosystems. This project visualizes how students can seamlessly connect to offer and seek freelance services through an intuitive, modern, and user-friendly interface.{' '}
       <a 
           href="https://drive.google.com/file/d/1xEecLI6U4GLBYGGlqFXZle_QgZG9xYez/view?usp=sharing" 
           target="_blank" 
@@ -58,7 +57,7 @@ const PROJECTS: Project[] = [
         </a>.
       </>
     ),
-    tags: ['Front End', 'Database Design', 'PWA', 'Mockup', 'Figma'],
+    tags: ['Front End', 'UI/UX Design', 'Database Design', 'PWA', 'Mockup', 'Figma'],
     images: [
       'Uni1.JPG',
       'Uni2.JPG',
@@ -72,7 +71,7 @@ const PROJECTS: Project[] = [
     link: 'https://github.com/beeb1709/Project_NongkiBib',
     description: (
       <>
-        A gamified time management mobile app concept built around strict penalty logic — turning focus and accountability into a game that discourages procrastination.{' '}
+        A gamified time management mobile application concept. Rather than just tracking schedules, this app is built around a strict penalty system to discipline its users turning focus and accountability into an engaging challenge to break the habit of procrastination.{' '}
       <a 
           href="https://drive.google.com/file/d/1OdVHvCqjPf27vOHFTKxSYIw0O4z5fpv0/view?usp=sharing" 
           target="_blank" 
@@ -105,7 +104,7 @@ const PROJECTS: Project[] = [
     title: 'Kesma Web',
     link: 'https://github.com/Atharfw/Web_Kesma',
     description: (
-      'A student welfare web platform designed to streamline advocacy workflows, manage organizational data, and improve digital services for students.'
+      'A student welfare web platform initiated to digitalize organizational services. This system facilitates a highly structured advocacy workflow, centralizes data management, and significantly improves the accessibility of digital services for students.'
     ),
     tags: ['Web App', 'Tailwind', 'Backend', 'JavaScript', 'MySQL', 'Prototyping'],
     images: [
@@ -119,7 +118,7 @@ const PROJECTS: Project[] = [
     link: 'https://github.com/Atharfw/project_uas/blob/main/spotifyFix.cpp',
     description: (
       <>
-        An academic final exam project focused on music data selection and processing, applying core algorithms and complex data structures to efficiently handle and query large datasets.{' '}
+        An academic-scale data analytics project focused on the selection and processing of music datasets. This system implements core algorithms and complex data structures to efficiently sort, manage, and execute queries across large volumes of data.{' '}
       <a 
           href="https://drive.google.com/drive/folders/1P8JcmeBWSslD-dWE4WQytXpck-fihBKe?usp=sharing" 
           target="_blank" 
@@ -147,7 +146,7 @@ const PROJECTS: Project[] = [
     link: 'https://github.com/Atharfw/kecerdasan_buatan',
     description: (
       <>
-        A decision support system leveraging the Fuzzy Sugeno logic algorithm to objectively evaluate applicants and determine scholarship recipients based on weighted criteria.{' '}
+        An intelligent Decision Support System (DSS) built using the Fuzzy Sugeno logic algorithm. Designed to minimize subjective bias in evaluating scholarship applicants, this system delivers highly precise recipient recommendations based on measurable, weighted criteria.{' '}
       <a 
           href="https://drive.google.com/file/d/1SDa-Deqxl9lJiMjAHC-IqdC1GXCPhaqq/view?usp=sharing" 
           target="_blank" 

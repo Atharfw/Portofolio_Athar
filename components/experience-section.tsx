@@ -11,15 +11,14 @@ type Experience = {
   image: string
 }
 
-// Swap these placeholder URLs for real photos later.
 const EXPERIENCES: Experience[] = [
   {
     period: 'Jan 2026 - Present',
     role: 'Head of Kesejahteraan Mahasiswa',
     org: 'Himpunan Mahasiswa Informatika',
     description:
-      'Lead the student welfare division, championing advocacy and strategic problem-solving. Manage welfare programs end to end, mediate student concerns, and drive organizational advocacy initiatives that improve day-to-day student life.',
-    tags: ['Leadership', 'Advocacy', 'Strategy', 'Data Management'],
+      'Directed the Advocacy & Strategic Studies and Social Affairs divisions, serving as the primary liaison between students and faculty to secure institutional solutions for student grievances. Spearheaded community outreach initiatives, managing end to end logistics and navigating bureaucratic processes to establish strategic partnerships with local foundations.',
+    tags: ['Leadership', 'Advocacy', 'Strategy', 'Data Management', 'Community Outreach', 'Partnership Development', 'Event Planning', 'Organizational Management'],
     image: 'Kesma.JPG',
   },
   {
@@ -27,8 +26,8 @@ const EXPERIENCES: Experience[] = [
     role: 'Head of Media Komunikasi dan Informasi',
     org: 'Himpunan Mahasiswa Informatika',
     description:
-      'Directed public communication and media strategy for the association. Led a full division, shaped the organization’s digital voice, and coordinated content across channels to keep members informed and engaged.',
-    tags: ['Media Strategy', 'Communication', 'Team Leadership', 'Branding'],
+      'Led the Multimedia and Public Relations divisions by enforcing strict SOPs for content creation and overseeing quality assurance. Spearheaded a strategic rebranding initiative and analyzed engagement metrics to optimize communication strategies, utilizing a hands on leadership approach to ensure high quality, on time deliverables.',
+    tags: ['Media Strategy', 'Communication', 'Team Leadership', 'Branding', 'Content Creation', 'Quality Assurance'],
     image: 'Medkom.JPG',
   },
   {
