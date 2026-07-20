@@ -168,7 +168,7 @@ const PROJECTS: Project[] = [
     ),
     tags: ['Fuzzy Logic', 'Python', 'Decision Support', 'Algorithms', 'Programming', 'Mathematics'],
     images: [
-      '/AI.JPG',
+      '/ai.jpg',
     ],
   },
 ]

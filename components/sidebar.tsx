@@ -20,9 +20,9 @@ const SOCIALS = [
 ]
 
 const PROFILE_IMAGES = [
-  'Athar1.JPG',
-  'Athar2.JPG',
-  'Athar3.JPG',
+  '/athar1.jpg',
+  '/athar2.jpg',
+  '/athar3.jpg',
 ]
 
 export function Sidebar() {
