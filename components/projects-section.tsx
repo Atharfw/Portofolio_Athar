@@ -37,30 +37,31 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'UniTask',
-    link: 'https://github.com/yourusername/unitask',
     description: (
       <>
-      'A hyperlocal gig economy platform connecting students with nearby tasks. Focused on robust backend logic, a well-structured relational database, and Progressive Web App (PWA) integration for a native-like experience.',then delivered a{' '}
+      A hyperlocal gig economy platform connecting students with nearby tasks. Focused on robust backend logic, a well-structured relational database, and Progressive Web App (PWA) integration for a native-like experience.{' '}
       <a 
-          href="https://link-google-drive-laporan-lu.com" 
+          href="https://drive.google.com/file/d/1xEecLI6U4GLBYGGlqFXZle_QgZG9xYez/view?usp=sharing" 
           target="_blank" 
           rel="noreferrer"
           className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
         >
-          comprehensive mitigation report
+          View the project report
         </a>.
       </>
     ),
     tags: ['Backend', 'Database Design', 'PWA', 'Python'],
     images: [
-      'https://picsum.photos/seed/unitask/800/450',
-      'https://picsum.photos/seed/unitask-2/800/450',
-      'https://picsum.photos/seed/unitask-3/800/450',
+      'Uni1.JPG',
+      'Uni2.JPG',
+      'Uni3.JPG',
+      'Uni4.JPG',
+      'Uni5.JPG',
     ],
   },
   {
     title: 'NongkiBib',
-    link: 'https://github.com/yourusername/nongkibib',
+    link: 'https://github.com/beeb1709/Project_NongkiBib',
     description: (
       <>
         'A gamified time management mobile app concept built around strict penalty logic — turning focus and accountability into a game that discourages procrastination.',then delivered a{' '}
