@@ -14,12 +14,11 @@ type Project = {
 const PROJECTS: Project[] = [
  {
     title: 'Offensive Security Final Project (KDJ)',
-    link: 'https://github.com/username-lu/repo-kdj', 
     description: (
       <>
         Conducted a sanctioned vulnerability assessment and penetration test simulation on a controlled web application as a final examination. Identified and exploited critical vulnerabilities such as SQL injection and XSS, then delivered a{' '}
         <a 
-          href="https://link-google-drive-laporan-lu.com" 
+          href="https://drive.google.com/file/d/1VU9Xu0ege5InZJUIjgzEpiDFndcaJ-at/view?usp=sharing" 
           target="_blank" 
           rel="noreferrer"
           className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
@@ -28,11 +27,20 @@ const PROJECTS: Project[] = [
         </a>.
       </>
     ),
-    tags: ['Kali Linux', 'Burp Suite', 'SQLi', 'XSS', 'Security Reporting'],
+    tags: ['Kali Linux','Metaspoitable2', 'Burp Suite', 'SQLi', 'XSS', 'Security Reporting', 'Penetration Testing', 'Vulnerability Assessment', 'Blue Teaming', 'Red Teaming'],
     images: [
-      'https://picsum.photos/seed/kdj-security-1/800/450',
-      'https://picsum.photos/seed/kdj-security-2/800/450',
-      'https://picsum.photos/seed/kdj-security-3/800/450',
+      'KDJ1.JPEG',
+      'KDJ1A.JPEG',
+      'KDJ1C.JPEG',
+      'KDJ2.JPEG',
+      'KDJ3.JPEG',
+      'KDJ4.JPEG',
+      'KDJ5.JPEG',
+      'KDJ6.JPEG',
+      'KDJ7.JPEG',
+      'KDJ8.JPEG',
+      'KDJ9.JPEG',
+      'KDJ10.JPEG',
     ],
   },
   {
@@ -50,7 +58,7 @@ const PROJECTS: Project[] = [
         </a>.
       </>
     ),
-    tags: ['Backend', 'Database Design', 'PWA', 'Python'],
+    tags: ['Front End', 'Database Design', 'PWA', 'Mockup', 'Figma'],
     images: [
       'Uni1.JPG',
       'Uni2.JPG',
@@ -64,35 +72,46 @@ const PROJECTS: Project[] = [
     link: 'https://github.com/beeb1709/Project_NongkiBib',
     description: (
       <>
-        'A gamified time management mobile app concept built around strict penalty logic — turning focus and accountability into a game that discourages procrastination.',then delivered a{' '}
+        A gamified time management mobile app concept built around strict penalty logic — turning focus and accountability into a game that discourages procrastination.{' '}
       <a 
-          href="https://link-google-drive-laporan-lu.com" 
+          href="https://drive.google.com/file/d/1OdVHvCqjPf27vOHFTKxSYIw0O4z5fpv0/view?usp=sharing" 
           target="_blank" 
           rel="noreferrer"
           className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
         >
-          comprehensive mitigation report
+          View the project report
+        </a>
+        {' & '}
+        <a 
+          href="https://drive.google.com/file/d/1OdVHvCqjPf27vOHFTKxSYIw0O4z5fpv0/view?usp=sharing" 
+          target="_blank" 
+          rel="noreferrer"
+          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
+        >
+          View Our Presentation Video
         </a>.
       </>
     ),
-    tags: ['Mobile', 'Gamification', 'UX', 'Figma'],
+    tags: ['Mobile', 'Gamification', 'Android Studio', 'Kotlin', 'Figma', 'UI/UX Design', 'Prototyping', 'MySQL'],
     images: [
-      'https://picsum.photos/seed/nongkibib/800/450',
-      'https://picsum.photos/seed/nongkibib-2/800/450',
-      'https://picsum.photos/seed/nongkibib-3/800/450',
+      'Bib1.JPG',
+      'Bib2.JPG',
+      'Bib3.JPG',
+      'Bib4.JPG',
+      'Bib5.JPG',
     ],
   },
   {
     title: 'Kesma Web',
-    link: 'https://github.com/yourusername/kesma-web',
+    link: 'https://github.com/Atharfw/Web_Kesma',
     description: (
       'A student welfare web platform designed to streamline advocacy workflows, manage organizational data, and improve digital services for students.'
     ),
-    tags: ['Web App', 'Tailwind', 'Backend', 'Data Management'],
+    tags: ['Web App', 'Tailwind', 'Backend', 'JavaScript', 'MySQL', 'Prototyping'],
     images: [
-      'https://picsum.photos/seed/kesma-web/800/450',
-      'https://picsum.photos/seed/kesma-web-2/800/450',
-      'https://picsum.photos/seed/kesma-web-3/800/450',
+      'K1.JPG',
+      'K2.JPG',
+      'K3.JPG',
     ],
   },
   {
@@ -125,25 +144,32 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'Scholarship Selection System',
-    link: 'https://github.com/yourusername/scholarship-selection-system',
+    link: 'https://github.com/Atharfw/kecerdasan_buatan',
     description: (
       <>
-        'A decision support system leveraging the Fuzzy Sugeno logic algorithm to objectively evaluate applicants and determine scholarship recipients based on weighted criteria.',then delivered a{' '}
+        A decision support system leveraging the Fuzzy Sugeno logic algorithm to objectively evaluate applicants and determine scholarship recipients based on weighted criteria.{' '}
       <a 
-          href="https://link-google-drive-laporan-lu.com" 
+          href="https://drive.google.com/file/d/1SDa-Deqxl9lJiMjAHC-IqdC1GXCPhaqq/view?usp=sharing" 
           target="_blank" 
           rel="noreferrer"
           className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
         >
-          comprehensive mitigation report
+          View the project report
+        </a>
+        {' & '}
+        <a 
+          href="https://youtu.be/nQO77D9lo0A?si=Avsd-k3dOSO8y8EI" 
+          target="_blank" 
+          rel="noreferrer"
+          className="font-medium text-foreground hover:text-primary hover:underline focus-visible:text-primary"
+        >
+          View Our Presentation Video
         </a>.
       </>
     ),
-    tags: ['Fuzzy Logic', 'Python', 'Decision Support', 'Algorithms'],
+    tags: ['Fuzzy Logic', 'Python', 'Decision Support', 'Algorithms', 'Programming', 'Mathematics'],
     images: [
-      'https://picsum.photos/seed/scholarship-dss/800/450',
-      'https://picsum.photos/seed/scholarship-dss-2/800/450',
-      'https://picsum.photos/seed/scholarship-dss-3/800/450',
+      'AI.JPG',
     ],
   },
 ]
