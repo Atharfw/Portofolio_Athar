@@ -19,7 +19,7 @@ const EXPERIENCES: Experience[] = [
     description:
       'Directed the Advocacy & Strategic Studies and Social Affairs divisions, serving as the primary liaison between students and faculty to secure institutional solutions for student grievances. Spearheaded community outreach initiatives, managing end to end logistics and navigating bureaucratic processes to establish strategic partnerships with local foundations.',
     tags: ['Leadership', 'Advocacy', 'Strategy', 'Data Management', 'Community Outreach', 'Partnership Development', 'Event Planning', 'Organizational Management'],
-    image: 'Kesma.JPG',
+    image: '/kesma.jpg',
   },
   {
     period: 'MedkomInfo 2025 - 2026',
@@ -28,7 +28,7 @@ const EXPERIENCES: Experience[] = [
     description:
       'Led the Multimedia and Public Relations divisions by enforcing strict SOPs for content creation and overseeing quality assurance. Spearheaded a strategic rebranding initiative and analyzed engagement metrics to optimize communication strategies, utilizing a hands on leadership approach to ensure high quality, on time deliverables.',
     tags: ['Media Strategy', 'Communication', 'Team Leadership', 'Branding', 'Content Creation', 'Quality Assurance'],
-    image: 'Medkom.JPG',
+    image: '/medkom.jpg',
   },
   {
     period: 'High School (2022 - 2023)',
@@ -37,7 +37,7 @@ const EXPERIENCES: Experience[] = [
     description:
       'Managed crowd control and tactical management under pressure and reliable execution across varied operational roles.',
     tags: ['Crowd Control', 'Event Ops', 'Coordination'],
-    image: 'Thallasic.JPG',
+    image: '/thallasic.jpg',
   },
 ]
 
